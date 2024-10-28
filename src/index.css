@@ -60,7 +60,7 @@ section {
 }
 
 .results .result {
-	width: 33.33%;
+	width: 33.333%;
 	min-width: 250px;
 	padding: 15px;
 	display: flex;
@@ -78,7 +78,7 @@ section {
 	font-size: 20px;
 	font-weight: 600;
 	padding: 10px;
-	background: #4455665;
+	background: #445565;
 	flex: 1 1 100%;
 	transition: 0.4s ease-out;
 }
@@ -86,15 +86,16 @@ section {
 .results .result:hover h3 {
 	background: #FFF;
 	color: #223343;
-} 
+}
 
 .popup {
-	postion: fixed;
-	top:0;
-	left:0;
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100vw;
-	height:100vh;
-	background-color : #445565;
+	height: 100vh;
+	background-color: #445565;
+
 	overflow-y: scroll;
 }
 
@@ -104,32 +105,57 @@ section {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 25px;
+
 	color: #FFF;
 }
 
-.popup .content .h2 {
+.popup .content h2 {
 	font-size: 28px;
 	font-weight: 600;
 }
-
 .popup .content h2 span {
 	font-weight: 300;
 	font-size: 20px;
-
 }
 
 .popup .content .rating {
 	margin-bottom: 30px;
-} 
-
-.popup .content .plot {
-	display:flex;
-	flex-wrap: wrap;
-	margin: 0px -15px 30px;
-
 }
 
-.popup .content .plot img{
-	flex: 1 1 50%;;
-	max-width: 
+.popup .content .plot {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px 30px;
+}
+
+.popup .content .plot img {
+	flex: 1 1 50%;
+	max-width: 300px;
+	padding: 0px 15px;
+}
+
+.popup .content .plot p {
+	flex: 1 1 50%;
+	padding: 15px;
+}
+
+.popup .content .close {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 18px;
+	font-weight: 700;
+
+	background: #4484C4;
+	color: #FFF;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	appearance: none;
+	cursor: pointer;
+
+	transition: 0.4s ease-out;
+}
+
+.popup .content .close:hover {
+	background: #223343;
 }
