@@ -159,3 +159,20 @@ section {
 .popup .content .close:hover {
 	background: #223343;
 }
+
+/* Error.css */
+.error {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #d9534f; /* Bootstrap's red for error messages */
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #f8d7da; /* Light red background */
+	padding: 15px;
+	margin: 20px 0;
+	border-radius: 5px;
+	border: 1px solid #f5c6cb;
+	text-align: center;
+  }
+  
